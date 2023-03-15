@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <script src="https://kit.fontawesome.com/62ddc7885f.js" crossorigin="anonymous"></script>
+    <title>Chacra</title>
+</head>
+<body>
+    <div class= "containerhome">
+        <span class="nav-bar">
+            <i class="fas fa-bars" id="btnMenu"></i>
+            <a href="index.html"> <img class="logo2" src="./assets/granja logo.JPG"></a>
+        </span>
+        <nav class="main-nav">
+            <a href="index.html"> <img class="logo" src="./assets/granja logo.JPG"></a>
+            <ul class="menu" id="menu">
+                <li class="menu__item">
+                    <a href="/src/productos.html" class="menu__link">Productos</a>
+                </li>
+                <li class="menu__item">
+                    <a href="/src//turismo.html" class="menu__link">Turismo</a>
+                </li>
+                <li class="menu__item">
+                    <a href="/src/ubicacion.html" class="menu__link">Ubicación</a>
+                </li>
+            </ul>
+            <!--<a href="login_adm.html"> <img class="botonlogin" src="./assets/login.png"></a>-->
+        </nav>
+        <script src="menu.js"></script>
+        <div class="main">
+                <div class="overlay"></div>
+                <div class="texto">
+                    <h1>Sobre nosotros</h1>
+                    <h4>Somos parte de un proyecto de producción agropecuaria y ganadera de autosustento</h4>
+                </div>    
+        <!--<iframe width="560" height="315" src="https://www.youtube.com/embed/zYP-Yot90so" allow="autoplay"></iframe>-->
+                <video id="video" autoplay="autoplay" loop="loop" muted defaultMuted playsinline  oncontextmenu="return false;"  preload="auto">
+                        <source src="assets/campo.mp4" type="video/mp4">
+                </video>
+                
+        </div>
+        <div class="footer">@2021</div>
+    </div>
+</body>
+</html>
