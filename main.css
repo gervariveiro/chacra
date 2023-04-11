@@ -246,7 +246,12 @@ body{
     .nav-bar{
         padding: 5%;
     }
-
+    
+    .main {
+    position: asolute;
+    height: 100%
+       
+    }
 
 
     .texto{
